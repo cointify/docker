@@ -1,5 +1,5 @@
 FROM centos:centos7
-MAINTAINER Jatinder Singh <xxxv.coin@gmail.com>
+MAINTAINER J Singh <xxxv.coin@gmail.com>
 
 RUN yum -y update; yum clean all
 
