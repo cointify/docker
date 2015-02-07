@@ -2,6 +2,7 @@ FROM centos:centos7
 MAINTAINER J Singh <xxxv.coin@gmail.com>
 
 RUN yum -y update; yum clean all
+RUN yum -y install unzip; yum clean all
 
 ENV JDK_VERSION 8u31
 ENV JDK_BUILD_VERSION b13
